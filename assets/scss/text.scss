@@ -1,0 +1,83 @@
+// 定义一些文字颜色
+.text-color-1 {
+  color: var(--text-color-1);
+}
+.text-color-2 {
+  color: var(--text-color-2);
+}
+.text-color-3 {
+  color: var(--text-color-3);
+}
+.text-color-4 {
+  color: var(--text-color-4);
+}
+.text-base-color {
+  color: var(--base-color);
+}
+.text-primary-color {
+  color: var(--primary-color);
+}
+.text-success-color {
+  color: var(--success-color);
+}
+.text-error-color {
+  color: var(--error-color);
+}
+
+.text-huge {
+  font-size: var(--font-size-huge);
+}
+.text-body {
+  font-size: var(--font-size);
+}
+.text-tiny {
+  font-size: var(--font-size-tiny);
+}
+.text-small {
+  font-size: var(--font-size-small);
+}
+
+.text-title {
+  font-size: var(--font-size-huge);
+  font-weight: 600;
+}
+.text-desc-3 {
+  font-size: var(--font-size-tiny);
+  color: var(--text-color-3);
+}
+.text-desc4 {
+  font-size: var(--font-size-tiny);
+  color: var(--text-color-4);
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.h1,
+.h2 {
+  font-weight: 700;
+}
+
+.h3,
+.h4,
+.h5 {
+  font-weight: 600;
+}
+
+.h5 {
+  font-size: 20px;
+}
+.h4 {
+  font-size: 26px;
+}
+.h3 {
+  font-size: 32px;
+}
+.h2 {
+  font-size: 40px;
+}
+.h1 {
+  font-size: 52px;
+}
